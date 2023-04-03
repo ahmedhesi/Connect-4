@@ -47,7 +47,10 @@ const winningCombos = [
 [16, 23, 30, 37],
 [3, 10, 17, 24],
 
-
+// reset button
+resetGame.addEventListener('click', function (evt) {
+  init();
+});
 
 
 
