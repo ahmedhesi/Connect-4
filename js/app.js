@@ -1,3 +1,14 @@
+let spots = Array.from(document.querySelectorAll('div.board > div'));
+
+let disc1 = document.getElementById('disc-1')
+
+let disc2 = document.getElementById('disc-2')
+
+let message = document.querySelector('h2');
+
+const resetGame = document.getElementById('reset');
+
+
 const gameboard = [
   [0, 0, 0, 0, 0, 0, 0],
   [0, 0, 0, 0, 0, 0, 0],
